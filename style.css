@@ -1,0 +1,111 @@
+/* .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid black;
+    position: absolute;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100px;
+    height: auto;
+}
+
+.myDiv {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} */
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 15%;
+}
+
+body {
+    background-color: bisque;
+}
+
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.card.done {
+    cursor: default;
+}
+
+.card.done:hover {
+    cursor: default;
+    box-shadow: none;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 0px 1px red;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.teal {
+    background-color: teal;
+}
+
+.color-hidden {
+    background-color: #eee;
+}
